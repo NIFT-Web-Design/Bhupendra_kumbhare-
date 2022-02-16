@@ -80,28 +80,104 @@ div > p {
 
 /* fourblueboxstyling */
 
-div.avarietyserviceweserve {
+div.boxvairiety {
   display: flex;
-  justify-content: center;
-  gap: 32px;
-  background-color: #edeff3;
-  padding-top: 60px;
-}
+   justify-content: center;
+   gap: 32px;
+   background-color: #EDEff3;
+   padding-top: 60px;
+    }
 
-.avarietyserviceweserve article {
+.boxvairiety article {
   box-shadow: 0px 3px 8px 0px rgb(0 0 0 /20% );
   width: 260px;
   background-color: white;
 }
-
-.avarietyserviceweserve article h3 {
+.boxvairiety article h3 {
   background-color: #0a465b;
-    color: white;
-    font-size: 24px;
-    text-transform: uppercase;
-    font-weight: 300;
-    text-align: center;
-    height: 60px;
-    border-bottom: 5px; solid lightgrey;
-    padding: 25px 20px 25px
+  color: white;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  height: 60px;
+  border-bottom: 5px; solid lightgreys;
+  padding: 25px 20px 25px;
 }
+
+.boxvairiety article p {
+  padding: 20px 25px;
+  color: #7f969e;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+section.avarietyserviceweserve.6paracenteralign{
+  margin: 0 300px;
+  padding-left: 140px;
+  }
+
+
+ .paracenter1 {
+  display: inline-flex;
+  flex-wrap: wrap;
+  max-width: 350px;
+  margin-top: 30px;
+  margin-left: 30px;
+  box-sizing: border-box;
+}
+
+  .paracenter1 .onepara h3 {
+    font-size: 24px;
+    color: #0a465b;
+    text-align: center;
+    font-variant: small-caps;
+    border-bottom: 2px solid #FDB530;
+    padding: 7px 0;
+    margin: auto;
+    width: 80%;
+  }
+
+.paracenter1 .onepara  p {
+    padding: 15px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #7f969e;
+  }
