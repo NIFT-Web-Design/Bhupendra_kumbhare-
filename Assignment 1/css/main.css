@@ -190,7 +190,7 @@ section.avarietyserviceweserve.6paracenteralign{
 
 
 
-  
+
   /* widevarietyboxes */
 
  div.widevarietyboxes {
@@ -218,4 +218,110 @@ background-color: white;
 .widevarietyboxes article p {
   padding: 20px 25px;
 color: #7f969e;
+}
+
+
+
+
+
+/* contactUs intouch */
+
+
+.intouch {
+  color: #0a465b;
+text-align: center;
+padding: 10px 0px 30px 0px;
+}
+
+.servehighereducation .allintouch {
+  margin: 0 162px;
+  padding-left: 250px;
+  display: inline-block;
+  position: relative;
+}
+
+
+.leftside {
+  display: inline-block;
+}
+
+.allgetintouch #rightside {
+  display: inline-block;
+  margin-left: 50px;
+  margin-top:20px;
+
+}
+
+
+#helpimage {
+  margin-left: 130px;
+    border-radius: 50%;
+    border: 8px solid rgba(253, 181, 48, 0.7);
+    position: relative;
+    bottom: 50px;
+    left: 140px;
+  }
+
+  #happytohelp {
+    width: 260px;
+    font-size: 18px;
+    color: #7f969e;
+    text-align: center;
+    border-top: 1px solid #107698;
+    border-bottom: 1px solid #107698;
+    padding: 10px 0;
+    display: inline-block;
+    margin-top: 16px;
+    position: relative;
+    bottom: 10px;
+    right: 100px;
+    line-height: 1.4;
+  }
+
+  #rightside a .contactUs {
+    width: 165px;
+  font-size: 24px;
+  text-transform: capitalize;
+  color: white;
+  padding: 15px 0px 15px 50px;
+  background-color: #107698;
+  border: 2px solid #FDB530;
+  border-radius: 4px;
+  box-shadow: 0px 3px 5px 0px rgb(0 0 0 / 50%);
+  transition: 0.2s;
+  position: relative;
+  margin-left: 65px;
+  display: inline-block;
+  }
+
+  #rightside .apps {
+    min-width: 350px;
+  text-align: center;
+  border-top: 4px solid #dfdfe0;
+  margin-top: 35px;
+  padding-top: 25px;
+  }
+
+  .apps #linkedin, #twitter, #facebook {
+    border: 5px solid #dfdfe0;
+  border-radius: 50px;
+  margin: 0 12px;
+  }
+
+  .servicesofvariety .imagetrusted {
+    margin: auto;
+  padding-left: 600px;
+  height: 90px;
+  padding-top: 30px;
+  }
+
+
+footer {
+  background-color: #504f4f;
+  display: block;
+  width: 100%;
+  line-height: 1.4;
+  color: #c7c5c5;
+  text-align: center;
+  padding: 40px 0;
 }
