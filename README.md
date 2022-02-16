@@ -1,2 +1,2 @@
 # Bhupendra_kumbhare- Assignments:
-[[Website Link]](https://nift-web-design.github.io/Bhupendra_kumbhare/Assignment 1)
+[[Website Link]](https://nift-web-design.github.io/Bhupendra_kumbhare-/Assignment%201/index%20page.html)
