@@ -1,0 +1,140 @@
+html,body{
+  margin: 0;
+  height:100%;
+}
+
+.mainContainer{
+  font-family: cursive;
+  height:1200px;
+  width:100%;
+  font-size:0;
+  margin-left: 70px;
+  display: flex;
+}
+
+.item{
+  display: inline-block;
+    vertical-align: top;
+    background: #00BF1D;
+    height: 100%;
+    width: 30%;
+    background-color: #DAD6CB;
+    /* margin-left: 68px; */
+}
+.item2{
+  background:#F4CAAE;
+  width: 60%;
+}
+
+.itemInsiderDiv1{
+  margin: 4px 30px;
+  height: 12%;
+}
+
+.itemInsiderDivProfile2{
+  margin: 4px 30px;
+  height: 12%;
+}
+.Myname {
+    float: right;
+    font-size: 15px;
+    margin-top: 30px;
+}
+.itemInsiderDivProfile2 p{
+  color: black;
+  font-size: 15px;
+}
+
+.firstProfileDiv {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-content: ;
+    justify-content: inherit;
+}
+
+.itemInsiderDiv2{
+  margin: 4px 30px;
+  /* height: 20%; */
+}
+
+.itemInsiderDiv2.workExperience {
+    height: 10%;
+}
+
+
+
+.itemInsiderDiv2.skills{
+  margin-top: 270px;
+  height: 20%;
+}
+.headingBox2{
+  font-size: 35px;
+}
+
+.itemInsiderDiv2 p{
+  color: black;
+  font-size: 15px;
+}
+
+.headingBox {
+    font-size: 35px;
+    text-align: right;
+}
+
+ul{
+  font-size: 15px;
+  float: right;
+}
+
+.boxDiv {
+    margin-top: 40px;
+  }
+
+.item2InsiderDiv{
+  margin: 4px 30px;
+  height: 100%;
+}
+
+hr.horizantalLine{
+  border: 1px solid #9b9999;
+}
+.mainDivMargin{
+  padding:10px 100px;
+  background: white;
+}
+
+.insiderDiv{
+    background: #efefef;
+}
+.imgUpperDiv img {
+  width: 150px;
+   height: 150px;
+   border-radius: 50%;
+   margin: 20px;
+
+   object-fit: cover;
+   object-position: center right;
+}
+
+.firstProfileDiv{
+  display: flex;
+  gap: 242px;
+align-items: center;
+}
+
+.profileHeading {
+  font-family: monospace;
+    font-size: 20px;
+  width: 100%;
+  padding: 55px 67px;
+}
+.imgUpperDiv{
+    width: 521px;
+}
+.profileHeading p{
+  margin-top: -22px;
+}
+.imgUpperDiv img {
+    padding:40px 210px;
+}
