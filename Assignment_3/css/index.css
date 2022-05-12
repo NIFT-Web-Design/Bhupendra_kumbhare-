@@ -1,0 +1,673 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font-family: Montserrat;
+  font-weight: 700;
+}
+
+a {
+  color: #ffffff;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.section {
+  height: 866px;
+  width: 1680px;
+}
+
+#section1 {
+  background-color: #ffffff;
+}
+
+#section1>img {
+  width: inherit;
+  height: inherit;
+}
+
+
+#section1{
+  background-color: #ffffff;
+  z-index: 0;
+}
+
+.main-header {
+
+  background-color: #EC1C24;
+  width: 1680px;
+  height: 68px;
+
+}
+
+
+.main-header-menu {
+  display: flex;
+  flex-flow: row;
+  font-size: 2em;
+  list-style-type: none;
+  justify-content: space-around;
+  padding: 22px;
+  text-transform: uppercase;
+
+}
+
+.main-header-menu>li {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.195em;
+  text-align: left;
+}
+
+#section2{
+  width: 1680px;
+  height: 625px;
+}
+#section3{
+  width: 1680px;
+  height: 961px;
+}
+
+.section3-header {
+  background-image: url("images/99.png");
+  height: 194px;
+  width: 1680px;
+}
+
+.about {
+  height: 625px;
+  width: 1680px;
+  background-color: #EC1C24;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.about>div {
+  left: 30px;
+  height: 420px;
+  width: 1249px;
+
+}
+
+.about>div>h2 {
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 39px;
+  letter-spacing: 0.125em;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 35px;
+
+}
+
+.about>div>p {
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+
+}
+
+#section4 {
+
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 1170px;
+
+}
+
+#section4>div {
+  margin-top: 100px;
+}
+
+.section4-gallary {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.section4-header>h2 {
+
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 39px;
+  letter-spacing: 0.125em;
+  text-align: left;
+
+}
+
+.section4-gallary{
+  margin-top: -33px
+  !important
+}
+.section4-gallary>div {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  
+}
+.section4-gallary>div>div>h3 {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0.125em;
+  text-align: center;
+  margin-top: 11px;
+
+}
+
+.section4-para {
+  height: 243px;
+  width: 1170px;
+  margin-top: 8px
+  !important
+
+}
+
+.section4-para>p {
+  font-family: Montserrat;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+  width: 1170px;
+
+}
+
+
+/*footer************************************************** */
+footer {
+  height: 293px;
+  width: 1680px;
+  background-color: #EC1C24;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+}
+
+footer>div>div>h4 {
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+
+}
+
+footer>div>img {
+  height: 290px;
+  width: 449px;
+}
+
+.social-media {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-end;
+  align-items: center;
+
+}
+
+footer>div>hr {
+  background-color: #ffffff;
+  width: 615px;
+  ;
+  height: 2px;
+  margin-bottom: 30px;
+}
+
+.hr-div {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-content: center;
+  margin-top: 15px;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/*footer************************************************** */
+
+/*Page 2 history*/
+
+.header {
+  height: 72px;
+}
+
+.main-header-other {
+
+  height:62px;
+  width: inherit;
+  left: 0px;
+  background-color: #ffffff;
+}
+
+
+.main-header-menu-other {
+  display: flex;
+  flex-flow: row;
+  font-size: 2em;
+  list-style-type: none;
+  justify-content: space-around;
+  padding: 15px;
+  text-transform: uppercase;
+box-shadow: -1px 2px 8px 2px #888888;
+
+}
+
+.main-header-menu-other>li {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.125em;
+  text-align: left;
+}
+
+.main-header-menu-other>li>a {
+  color: #1b1b1b;
+
+}
+
+#section2-other {
+  height: 62px;
+  width: 1680px;
+  display: flex;
+  flex-flow: column;
+}
+
+#section3-other {
+  height: 1400px;
+  width: 1680px;
+}
+
+.section3-header-other {
+  background-image: url("images/99.png");
+  height: 90px;
+  width: 1680px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.section3-header-other >div>h1{
+
+  font-family: Montserrat;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.125em;
+  text-align: center;
+
+}
+
+.section4-gallary-history {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+
+}
+
+.section4-gallary-history>div {
+  margin: 20px
+}
+
+.section4-gallary-history>div>div>h3 {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0.125em;
+  text-align: center;
+  text-transform: uppercase;
+
+
+}
+
+.section4-para-history {
+  height: 243px;
+  width: 1680;
+  margin-top: 40px;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-content: center
+  !important
+}
+
+.section4-para-history>p {
+  font-family: Montserrat;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+  width: 1170px;
+}
+
+.process-div {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+#section3-other>div>hr{
+    height: 1px;
+    border-width: 0;
+    color: gray;
+    background-color: gray;
+    margin-top:15px;
+}
+
+#section3-other>div>h1{
+  margin-top: 100px;
+  font-family: Montserrat;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+}
+
+.process-div>div {
+  height: 300px;
+  
+  margin: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.process-div>div:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  
+}
+.process-div>div>div>h3 {
+
+font-family: Montserrat;
+font-size: 15px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+width: 230px;
+
+}
+
+.process-div>div>div>img {
+  height: 230px;
+  width: 230px;
+}
+
+.video-process {
+
+  margin: 170px;
+  margin-left: 190px;
+}
+
+.project-section-1 {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-content: flex-start;
+  width: 1680px;
+  padding: 10px;
+  margin-top: 80px;
+
+}
+
+.project-section-1>div {
+  display: flex;
+  flex-flow: row;
+  justify-items: center;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 1680px;
+}
+
+.project-section-1>div>img {
+  height: 500px;
+  width: 759px;
+  margin-top: 34px;
+}
+
+.project-section-1>h1 {
+
+  height: 39px;
+  width: 703px;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 39px;
+  letter-spacing: 0.125em;
+  text-align: center;
+  width: 1680px;
+
+
+}
+
+.section3-other-project {
+  height: 194px;
+  width: 1680px;
+}
+
+.project-section-2 {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-content: flex-start;
+  width: 1680px;
+  padding: 10px;
+  margin-top: 80px;
+  margin-bottom: 200px;
+  ;
+
+
+}
+
+.project-section-2>h1 {
+  height: 39px;
+  width: 703px;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 39px;
+  letter-spacing: 0.125em;
+  text-align: center;
+  width: 1680px;
+
+
+}
+
+.project-section-2>div {
+  display: flex;
+  flex-flow: column;
+  justify-items: center;
+  align-items: center;
+  width: 1680px;
+  
+}
+
+.project-section-2>div>div>img {
+
+  height: 700px;
+  width: 540px;
+ 
+  margin: 40px
+
+}
+
+.project-section-2>div>div>img:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.gallery-section-1 {
+  display: flex;
+  flex-flow: column;
+  justify-items: center;
+  align-items: center;
+  width: 1680px;
+  padding: 10px;
+  margin-top: 80px;
+}
+
+.gallery-section-1>div {
+  display: flex;
+  flex-flow: column;
+  justify-items: center;
+  align-items: center;
+  width: 1680px;
+  padding: 20px;
+
+}
+
+.gallery-section-1>div>div>img {
+
+  height: 312px;
+  width: 500px;
+  margin: 5px;
+}
+.gallery-section-1>div>div>img:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+
+.gallery-section-1>div>h1 {
+
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 39px;
+  letter-spacing: 0.125em;
+  text-align: center;
+  width: 1680px;
+
+
+}
+
+.gallery-section-1>div>hr {
+
+  height: 2px;
+  border-width: 0;
+  color: gray;
+  background-color: gray;
+
+
+}
+
+
+.heading-gallery {
+  display: flex;
+  flex-flow: column;
+  justify-items: center;
+  align-items: center;
+  width: 1680px;
+  padding: 20px !important
+}
+
+.section3-contact-header{
+  background-image: url("images/Cheriyal_scroll_painting_Craft_cluster.png");
+  height: 1338px;
+  width: 1680px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.section3-contact-header>div>h1{
+  font-family: Montserrat;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 72px;
+  letter-spacing: -0.015em;
+  text-align: center;
+  
+}
+.section3-contact-header>div>h2{
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: -0.015em;
+  text-align: center;
+  
+  
+}
+.details-form-div{
+  height: 602.1498413085938px;
+width:fit-content;
+background-color: #ffffff;
+display: flex;
+flex-flow: column;
+justify-content:space-evenly;
+align-items:flex-start;
+padding-left: 90px;
+padding-right: 90px;
+
+
+
+margin: auto;
+margin-top: 90px;
+
+}
+.details-form-div>div>input{
+border: #1b1b1b 1px solid ;
+font-family: Montserrat;
+font-size: 21px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: -0.015em;
+text-align: left;
+padding: 10px;
+width: 270px;
+
+}
+.line{
+
+  height:1px;
+  width: 1250px;
+  border-width: 0;
+  color: gray;
+  background-color: gray;
+}
