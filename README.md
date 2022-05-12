@@ -1,4 +1,4 @@
 # Bhupendra_kumbhare- Assignments:
-[[Website Link]](https://nift-web-design.github.io/Bhupendra_kumbhare-/Assignment_1)
-[[Website Link]](https://nift-web-design.github.io/Bhupendra_kumbhare-/Assignment_2)
-[[Website Link]](https://nift-web-design.github.io/Bhupendra_kumbhare-/Assignment_3)
+[[Optimal partner page ]](https://nift-web-design.github.io/Bhupendra_kumbhare-/Assignment_1)
+[[Resume]](https://nift-web-design.github.io/Bhupendra_kumbhare-/Assignment_2)
+[[Cheriyal Website]](https://nift-web-design.github.io/Bhupendra_kumbhare-/Assignment_3)
